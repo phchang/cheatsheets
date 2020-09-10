@@ -33,4 +33,4 @@
 |     |     | ⌃   |     | O      | Insert a new line after the insertion point |
 |     |     | ⌃   |     | T      | Swap the character behind the insertion point with the character in front of the insertion point |
 
-See [Mac Keyboard Shortcuts][https://support.apple.com/en-us/HT201236]
+See [Mac Keyboard Shortcuts](https://support.apple.com/en-us/HT201236)
