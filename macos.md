@@ -1,7 +1,9 @@
 | ⌘   | ⌥   | ⌃   | ⇧   | Key    | Description   |
 | :-: | :-: | :-: | :-: | :-:    | :--           |
 |     | ⌥   |     | ⇧   | Delete | delete word left of the cursor |
-|     |     | ⌃   |     | K      | delete character to the right of the cursor |
+|     |     | ⌃   |     | K      | Delete the text between the insertion point and the end of the line or paragraph |
+|     |     | ⌃   |     | D      | Delete the character to the right of the insertion point |
+|     |     | ⌃   |     | H      | Delete the character to the left of the insertion point |
 |     |     |     |     |        | |
 | ⌘   |     |     |     | ⇡      | Move the insertion point to the beginning of the document |
 | ⌘   |     |     |     | ⇣      | Move the insertion point to the end of the document |
