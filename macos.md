@@ -1,4 +1,5 @@
 __Moving the Cursor__
+
 |      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
 |      |     |     | ⌃   |     | F      | Move forward one character |
@@ -17,26 +18,32 @@ __Moving the Cursor__
 |      |     |     | ⌃   |     | N      | Move down one line |
 |      |     |     | ⌃   |     | O      | Insert a new line after the insertion point |
 
++++
+
 __Selecting Text__
+
 |      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
-| ⇧⇠   |     |     | ⌃   | ⇧   | B      | Extend text selection one char left |
-| ⌘⇧⇠  |     |     | ⌃   | ⇧   | A      | Select text between cursor and the line start |
-|      | ⌘   |     |     | ⇧   | ⇡      | Select text between the insertion point and the beginning of the document |
+| ⇧⇠   |     |     | ⌃   | ⇧   | B      | Extend selection one char left |
+| ⌘⇧⇠  |     |     | ⌃   | ⇧   | A      | Select between cursor and the line start |
+|      | ⌘   |     |     | ⇧   | ⇡      | Select between cursor and doc start |
 |      |     |     |     |     |        | |     
-| ⇧⇢   |     |     | ⌃   | ⇧   | F      | Extend text selection one character to the right |
-| ⌘⌥⇢  |     |     | ⌃   | ⇧   | E      | Select text between the insertion point and the end of the current line |
-|      | ⌘   |     |     | ⇧   | ⇣      | Select text between the insertion point and the end of the document |
+| ⇧⇢   |     |     | ⌃   | ⇧   | F      | Extend selection one char right |
+| ⌘⌥⇢  |     |     | ⌃   | ⇧   | E      | Select between cursor and line end |
+|      | ⌘   |     |     | ⇧   | ⇣      | Select between cursor and doc end |
 |      |     |     |     |     |        | |     
-| ⇧⇡   |     |     | ⌃   | ⇧   | P      | Extend text selection to the nearest character at the same horizontal location on the line above |
-| ⇧⇣   |     |     | ⌃   | ⇧   | N      | Extend text selection to the nearest character at the same horizontal location on the line below |
+| ⇧⇡   |     |     | ⌃   | ⇧   | P      | Extend selection to nearest char at the same location on the line above |
+| ⇧⇣   |     |     | ⌃   | ⇧   | N      | Extend selection to nearest char at the same location on the line below |
 |      |     |     |     |     |        | |     
-| ⇧    |     | ⌥   |     | ⇧   | ⇡      | Extend text selection to the beginning of the current paragraph, then to the beginning of the following paragraph if pressed again |
-|      |     |     |     | ⇧   | ⇣      | Extend text selection to the end of the current paragraph, then to the end of the following paragraph if pressed again |
-| ⌥⇧⇠  |     | ⌥   | ⌃   | ⇧   | B      | Extend text selection to the beginning of the current word, then to the beginning of the following word if pressed again |
-| ⌥⇧⇢  |     |     | ⌃   | ⇧   | F      | Extend text selection to the end of the current word, then to the end of the following word if pressed again |
+| ⇧    |     | ⌥   |     | ⇧   | ⇡      | Extend selection to paragraph start (repeatable) |
+|      |     |     |     | ⇧   | ⇣      | Extend selection to paragraph end (repeatable) |
+| ⌥⇧⇠  |     | ⌥   | ⌃   | ⇧   | B      | Extend selection to the beginning of the current word (repeatable) |
+| ⌥⇧⇢  |     |     | ⌃   | ⇧   | F      | Extend selection to the end of the current word (repeatable) |
+
++++
 
 __Deleting Text__
+
 |      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
 |      |     | ⌥   |     | ⇧   | ⌫      | delete word left of the cursor |
@@ -45,6 +52,7 @@ __Deleting Text__
 |      |     |     | ⌃   |     | H      | Delete char to the left |
 
 __Editing Text__
+
 |      | ⌘    | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-:  | :-: | :-: | :-: | :-:    | :-- |
 |      |      |     | ⌃   |     | T      | Transpose |
