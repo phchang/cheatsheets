@@ -1,6 +1,6 @@
 __Moving the Cursor__
 
-|      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
+| Mac  | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
 |      |     |     | ⌃   |     | F      | Move forward one character |
 | ⌥⇢   |     | ⌥   | ⌃   |     | F      | Move forward one word |
@@ -22,7 +22,7 @@ __Moving the Cursor__
 
 __Selecting Text__
 
-|      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
+| Mac  | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
 | ⇧⇠   |     |     | ⌃   | ⇧   | B      | Extend selection one char left |
 | ⌘⇧⇠  |     |     | ⌃   | ⇧   | A      | Select between cursor and the line start |
@@ -44,7 +44,7 @@ __Selecting Text__
 
 __Deleting Text__
 
-|      | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
+| Mac  | ⌘   | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-: | :-: | :-: | :-: | :-:    | :-- |
 |      |     | ⌥   |     | ⇧   | ⌫      | delete word left of the cursor |
 |      |     |     | ⌃   |     | K      | Delete text between the cursor and line end |
@@ -53,7 +53,7 @@ __Deleting Text__
 
 __Editing Text__
 
-|      | ⌘    | ⌥   | ⌃   | ⇧   | Key    |     |
+| Mac  | ⌘    | ⌥   | ⌃   | ⇧   | Key    |     |
 | :-:  | :-:  | :-: | :-: | :-: | :-:    | :-- |
 |      |      |     | ⌃   |     | T      | Transpose |
 
